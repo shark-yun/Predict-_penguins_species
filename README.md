@@ -1,9 +1,9 @@
 # Predict_penguins_species
-
 Using limited penguins features to predict it's species. 
-We decided to use Culmen Length (mm) and Culmen Depth (mm) as the quantitative features and Island as the qualitative feature.
-We chose this combination of characteristics because we discovered in the Exploratory Analysis Section that Culmen Length & Culmen Depth and Culmen Length & Flipper Length resulted in distinct and separate clusters for each species, meaning it would be easy for the model to distingiush between species using these combinations as the training data. And we using following models to train the data and make the prediciton and comparing with the actual species.
-Yun - Support Vector Machines, Esther - KNeighbor Classifier, Noah - Random Forest Classifier.
+* We decided to use Culmen Length (mm) and Culmen Depth (mm) as the quantitative features and Island as the qualitative feature.
+
+* We chose this combination of characteristics because we discovered in the Exploratory Analysis Section that Culmen Length & Culmen Depth and Culmen Length & Flipper Length resulted in distinct and separate clusters for each species, meaning it would be easy for the model to distingiush between species using these combinations as the training data. And we using following models (Support Vector Machines, KNeighbor Classifier, Random Forest Classifier) to train the data and make the prediciton and comparing with the actual species.
+
 *** 
 Here are the following scores for each model:
 Support Vector Machine: **97.1%**
