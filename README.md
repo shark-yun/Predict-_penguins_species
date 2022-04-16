@@ -6,9 +6,9 @@ We chose this combination of characteristics because we discovered in the Explor
 Yun - Support Vector Machines, Esther - KNeighbor Classifier, Noah - Random Forest Classifier.
 *** 
 Here are the following scores for each model:
-Support Vector Machine: 97.1%
-K Neighbors Classifier: 97.1%
-Random Forest Classifier: 98.5% 
+Support Vector Machine: **97.1%**
+K Neighbors Classifier: **97.1%**
+Random Forest Classifier: **98.5%** 
 
 Notice that all of the models performed well each with a score above 97%, and the Random Forest Classifier performed the best with a score of 98.5%.
 From our data collection, we would recommend the Random Forest Classifier with the quantitative data being Culmen Length and Culmen Depth, and the qualitative data being island as this achieved the highest score on the test data.
